@@ -1,0 +1,13 @@
+.linkList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+svg:hover {
+    color: #8744CB !important;
+    transition: .2s;
+    cursor: pointer;
+}
+
