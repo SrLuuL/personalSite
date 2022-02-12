@@ -5,9 +5,13 @@
     gap: 2em;
 }
 
-svg:hover {
+svg:hover, svg:focus {
     color: #8744CB !important;
-    transition: .2s;
+    transition: .3s;
     cursor: pointer;
+}
+
+svg {
+    transition: .3s;
 }
 
