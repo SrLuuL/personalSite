@@ -17,3 +17,24 @@ p {
     transform: rotate(3deg);
     color: white;
 }
+
+@media (min-width: 1280px) {
+      .logo {
+      max-width: 65%;
+      }
+}
+
+
+@media (max-width: 1280px) {
+      .logo {
+      max-width: 65%;
+      }
+}
+
+
+@media (max-width: 650px){
+      .logo {
+      max-width: 90%;
+      }
+}
+
